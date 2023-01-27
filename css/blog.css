@@ -1,0 +1,37 @@
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.blog-item {
+  width: 32%;
+  margin-right: 2%;
+}
+
+.blog-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.blog-item:nth-child(n+4) {
+  margin-top: 20px;
+}
+
+.blog-item-date {
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.blog-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+@media screen and (max-width:768px) {
+
+  .blog-item {
+    width: 100%;
+    margin-right: 0;
+  }
+}

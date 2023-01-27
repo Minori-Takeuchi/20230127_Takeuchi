@@ -1,0 +1,104 @@
+.top-ttl {
+  text-align: center;
+}
+.top-btn {
+  margin: 40px auto 0;
+}
+
+/* top-mv */
+.top-mv {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  background: url("../img/mv.png") center;
+  background-size: cover;
+  color: white;
+}
+.top-mv-main-copy {
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+.top-mv-sub-copy {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* top-feature */
+.top-feature {
+  background-color: black;
+  color: white;
+}
+.top-feature-txt {
+  margin-top: 20px;
+}
+
+/* top-service */
+.top-service-ttl {
+  text-align: center;
+}
+.top-service-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.top-service-item {
+  width: 49%;
+  margin-top: 20px;
+  margin-right: 2%;
+}
+.top-service-item:nth-child(2n) {
+  margin-right: 0;
+}
+.top-service-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* top-blog */
+.top-blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.top-blog-item {
+  width: 32%;
+  margin-right: 2%;
+}
+.top-blog-item:nth-child(3n) {
+  margin-right: 0;
+}
+.top-blog-item-date {
+  margin-top: 5px;
+  margin-right: 20px;
+  font-size: 14px;
+}
+.top-blog-item-ttl {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* top-company */
+.top-company-list {
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 0;
+}
+.top-company-item {
+  width: 100%;
+}
+.top-company-link {
+  display: inline-block;
+  width: 100%;
+  line-height: 10;
+  text-align: center;
+  background-color: #cd0224;
+}
+
+@media screen and (max-width:768px) {
+  .top-service-item,.top-blog-item {
+    width: 100%;
+    margin-right: 0;
+  }
+}
